@@ -48,7 +48,7 @@ a{
 #profile .avatar img {
     width: 80%;
     border-radius: 50%;
-    border: 3px solid#cccc;  
+    border: 3px solid#f1e9e9cc;  
     box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 22);
 }
 #profile .information{
@@ -99,22 +99,24 @@ a{
     margin-top: 70px;
     display: flex;
     align-items: center;
+    padding-right: 20%;
 }
 #about .info {
     flex-grow: 1;
     max-width: 50%;
-    border-radius: 20%;
+    border-radius: 25px;
 }
 #about .avatar{
     flex-grow: 1;
     max-width: 50%;
+    padding-left: 5%;
 }
 #about .avatar img{
     font-size: 50%;
     border-radius: 25px;
 }
 #about h3{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 #about p span {
     background-color: aqua;
@@ -123,7 +125,136 @@ a{
 }
 #about .skill{
     display: flex;
+   
 }
 #about .skill .btngroup {
     margin: 20px 20px 0 0;
+    padding-right: 20%;
 }
+#about .skill .btngroup .a  {
+   background-color: rgb(66, 66, 252);
+   border: 1px;
+   border-radius: 10%;
+}
+#about .skill .btngroup .b  {
+    background-color: yellow;
+    border: 1px;
+    border-radius: 10%;
+}
+ #about .skill .btngroup .c  {
+    background-color: purple;
+    border: 1px;
+    border-radius: 10%;
+}
+ #about .skill .btngroup .d  {
+    background-color: pink;
+    border: 1px;
+    border-radius: 10%;
+}
+ #education h2{
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 80%;
+    margin-top: 70px;
+}
+ #education h2{
+    font-size: 3rem;
+}
+ #education .education-list{
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 50%;
+    margin-top: 20px;
+
+}
+ #experience h2{
+    font-size: 3rem;
+    margin-top: 50px;
+}
+ #experience .job h3 {
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20%;
+}
+ #experience .job p {
+    text-align: left;
+    padding-left: 30%;
+    margin-bottom: 20px;
+ }
+ #experience .job .job-description{
+    text-align: left;
+    padding-left: 35%;
+    margin-bottom: 20px;
+ }
+ #contact{
+    padding-left: 17%;
+ }
+ #contact .Info{
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: space-between;
+ }
+ #contact h3{
+    margin-left: 80px;
+    font-size: 3rem;
+ }
+ #contact .message .form-group-50 {
+    display: flex;
+
+  }
+  #contact .message .form-group-50 .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  #contact .message .form-group-100 .form-group {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  #contact
+    .message
+    .form-group-50
+    .form-group
+    label
+    #contact
+    .message
+    .form-group-100
+    .form-group
+    label {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  #contact .message .form-group-50 .form-group input,
+  #contact .message .form-group-100 .form-group input,
+  #contact .message .form-group-100 .form-group textarea {
+    width: 100%;
+  }
+  .Info .message,
+  .Info .insert-map {
+    flex-grow: 1;
+    max-width: 50%;
+  }
+  #contact .message input,
+  #contact .message textarea {
+    border: 1px solid rgb(87, 87, 87);
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  #contact .message button {
+    padding: 10px 45px;
+    border: 1px;
+    cursor: pointer;
+    background: rgb(35, 119, 163);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #contact .message button:hover {
+    background-color: rgb(43, 115, 154);
+  }
